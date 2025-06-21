@@ -1,0 +1,19 @@
+.p-space, .p-x, .p-o {
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/TicTacToe.png);
+    background-repeat: no-repeat;
+}
+
+
+.p-space {
+    background-position: 0px 0px;
+}
+
+.p-x {
+    background-position: -32px 0px;
+}
+
+.p-o {
+    background-position: 0px -32px;
+}
